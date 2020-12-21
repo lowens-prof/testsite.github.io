@@ -1,0 +1,89 @@
+
+<html lang="en">
+<head>
+  <title>Contrast Demo</title>
+  <!--link rel="shortcut icon" href="http://home.adelphi.edu/~siegfried/aulogo.gif"-->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<style>
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {
+    border: 3px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+
+</style>
+
+<header>
+  <div class="box-1">
+
+    <a id="skipnav" href="#pastnav">[Skip navigation]</a><br>
+
+    <img id="AdelphiLogo" src="images/AdelphiLogo.png" width="200" height="64" alt="Adelphi Logo">
+
+    <h1 style="text-align:center">Contrast</h1>
+
+  </div>
+</header>
+
+
+<nav aria-label="Main Navigation">
+  <div class="topnav">
+    <a href="home.html">Home</a>
+    <a class="active" href="#contrast">Contrast Accessibility</a>
+  </div>
+</nav>
+
+
+<main>
+  <a name="pastnav"> </a>
+  <tr>
+
+
+<h3>Why is Contrast Important</h3>
+<p>In terms of accessibility, web content should be easy to read and digest. It may enhance your website to throw a bunch of colors to make it look cool. However, is it accessible for an audience that has vision disabilities?</p>
+<h4>Contrast Example:</h4>
+<p>Make sure you use colors that contrast one another.</p>
+<p><span style="background-color: rgb(124, 112, 107);">The quick brown fox jumps over the lazy dog</span></p>
+<p><span style="background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);">The quick brown fox jumps over the lazy dog</span></p>
+<p><span style="background-color: rgb(0, 0, 0); color: rgb(226, 80, 65);"><span style="background-color: rgb(0, 0, 0);">The quick brown fox jumps over the lazy dog</span></span></p>
+<p><span style="background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);"><span style="background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);"><span style="background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);">The quick brown fox jumps over the lazy dog</span></span></span></p>
+<p><span style="color: rgb(41, 105, 176); background-color: rgb(163, 143, 132);">The quick brown fox jumps over the lazy dog</span></p>
+<p><span style="color: rgb(247, 218, 100); background-color: rgb(204, 204, 204);">The quick brown fox jumps over the lazy dog</span></p>
+<p><br></p>
+<p>To ensure following web content accessibility guidelines (WCAG), WebAim can be used for testing out color and contrast. Here is the link to their <a href="https://webaim.org/resources/contrastchecker/" rel="noopener noreferrer" target="_blank">Color Contrast Checker</a>.</p>
+<p><br></p>
+
+  <p>This picture has Alt Text</p>
+  <img src="images/dog.jpg" alt="Golden labrador swimming with a tennis ball in it's mouth">
+
+
+  <p>No Alt Text</p>
+  <img src="images/hummingbird.jpg" alt="">
+
+        
+</main>
+
+
+
+<footer>
+  <div class="box-2">
+    <ul style="list-style-type:none;">
+     <li>Liam Owens</li>
+     <li>Software Testing</li>
+     <li>Adelphi University</li>
+     <li>Professor Chays Liu</li>
+     <li>lowens@adelphi.edu</li>
+   </ul>
+ </div>
+</footer>
+</body>
+</html>
